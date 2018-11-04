@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     private void initMap(){
-        Button btnMap = (Button) findViewById(R.id.btnMap);
         Intent intent = new Intent(MainActivity.this,MapActivity.class);
         startActivity(intent);
     }
